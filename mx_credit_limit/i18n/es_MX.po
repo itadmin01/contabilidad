@@ -1,0 +1,180 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mx_credit_limit
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20240826\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-06 16:29+0000\n"
+"PO-Revision-Date: 2024-09-10 12:14-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+
+#. module: mx_credit_limit
+#. odoo-python
+#: code:addons/mx_credit_limit/models/credit_limit.py:0
+#, python-format
+msgid "%s is in  Blocking Stage and has a due amount of %s %s to pay"
+msgstr "%s está en fase de bloqueo y debe pagar %s %s"
+
+#. module: mx_credit_limit
+#: model:ir.model.fields,help:mx_credit_limit.field_res_partner__warning_stage
+#: model:ir.model.fields,help:mx_credit_limit.field_res_users__warning_stage
+msgid ""
+"A warning message will appear once the selected customer is crossed warning "
+"amount. Set its value to 0.00 to disable this feature"
+msgstr ""
+"Aparecerá un mensaje de advertencia cuando el cliente seleccionado supere "
+"el importe de advertencia. Establezca su valor en 0.00 para desactivar esta "
+"función"
+
+#. module: mx_credit_limit
+#. odoo-javascript
+#: code:addons/mx_credit_limit/static/src/js/account_asset.js:0
+#, python-format
+msgid "Accounting entries waiting for manual verification"
+msgstr "Asientos contables pendientes de verificación manual"
+
+#. module: mx_credit_limit
+#: model:ir.model.fields,field_description:mx_credit_limit.field_res_partner__active_limit
+#: model:ir.model.fields,field_description:mx_credit_limit.field_res_users__active_limit
+msgid "Active Credit Limit"
+msgstr "Límite de crédito activo"
+
+#. module: mx_credit_limit
+#: model:ir.model.fields,field_description:mx_credit_limit.field_res_partner__blocking_stage
+#: model:ir.model.fields,field_description:mx_credit_limit.field_res_users__blocking_stage
+msgid "Blocking Amount"
+msgstr "Importe del bloqueo"
+
+#. module: mx_credit_limit
+#: model:ir.model.fields,help:mx_credit_limit.field_res_partner__blocking_stage
+#: model:ir.model.fields,help:mx_credit_limit.field_res_users__blocking_stage
+msgid ""
+"Cannot make sales once the selected customer is crossed blocking amount.Set "
+"its value to 0.00 to disable this feature"
+msgstr ""
+"No se pueden realizar ventas una vez que el cliente seleccionado ha cruzado "
+"la cantidad de bloqueo. Establezca su valor en 0.00 para deshabilitar esta "
+"función"
+
+#. module: mx_credit_limit
+#: model:ir.model,name:mx_credit_limit.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: mx_credit_limit
+#: model:ir.model,name:mx_credit_limit.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: mx_credit_limit
+#: model_terms:ir.ui.view,arch_db:mx_credit_limit.view_customer_form
+msgid "Credit Limit"
+msgstr "Límite de crédito"
+
+#. module: mx_credit_limit
+#: model:ir.model.fields,field_description:mx_credit_limit.field_res_partner__enable_credit_limit
+#: model:ir.model.fields,field_description:mx_credit_limit.field_res_users__enable_credit_limit
+msgid "Credit Limit Enabled"
+msgstr "Límite de crédito activado"
+
+#. module: mx_credit_limit
+#: model:ir.model.fields,field_description:mx_credit_limit.field_res_config_settings__customer_credit_limit
+msgid "Customer Credit Limit"
+msgstr "Límite de crédito del cliente"
+
+#. module: mx_credit_limit
+#: model:ir.model.fields,field_description:mx_credit_limit.field_account_bank_statement_line__due_amount
+#: model:ir.model.fields,field_description:mx_credit_limit.field_account_move__due_amount
+#: model:ir.model.fields,field_description:mx_credit_limit.field_account_payment__due_amount
+#: model:ir.model.fields,field_description:mx_credit_limit.field_sale_order__due_amount
+msgid "Due Amount"
+msgstr "Importe adeudado"
+
+#. module: mx_credit_limit
+#: model_terms:ir.ui.view,arch_db:mx_credit_limit.es_config_settings_view_form_base_accounting_kit
+msgid "Enable credit limit for customers"
+msgstr "Habilitar límite de crédito para clientes"
+
+#. module: mx_credit_limit
+#: model:ir.model.fields,field_description:mx_credit_limit.field_account_bank_statement_line__has_due
+#: model:ir.model.fields,field_description:mx_credit_limit.field_account_move__has_due
+#: model:ir.model.fields,field_description:mx_credit_limit.field_account_payment__has_due
+#: model:ir.model.fields,field_description:mx_credit_limit.field_sale_order__has_due
+msgid "Has due"
+msgstr "Ha debido"
+
+#. module: mx_credit_limit
+#: model:ir.model.fields,field_description:mx_credit_limit.field_account_bank_statement_line__is_warning
+#: model:ir.model.fields,field_description:mx_credit_limit.field_account_move__is_warning
+#: model:ir.model.fields,field_description:mx_credit_limit.field_account_payment__is_warning
+#: model:ir.model.fields,field_description:mx_credit_limit.field_sale_order__is_warning
+msgid "Is warning"
+msgstr "Es la advertencia"
+
+#. module: mx_credit_limit
+#: model:ir.model,name:mx_credit_limit.model_account_move
+msgid "Journal Entry"
+msgstr "Entrada en el diario"
+
+#. module: mx_credit_limit
+#. odoo-javascript
+#: code:addons/mx_credit_limit/static/src/js/account_asset.js:0
+#, python-format
+msgid "Posted"
+msgstr "Publicado"
+
+#. module: mx_credit_limit
+#: model:ir.model,name:mx_credit_limit.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: mx_credit_limit
+#: model_terms:ir.ui.view,arch_db:mx_credit_limit.account_move_form_inherited
+#: model_terms:ir.ui.view,arch_db:mx_credit_limit.header_view
+msgid "This Customer's due amount is"
+msgstr "El importe adeudado por este cliente es de"
+
+#. module: mx_credit_limit
+#: model_terms:ir.ui.view,arch_db:mx_credit_limit.account_move_form_inherited
+#: model_terms:ir.ui.view,arch_db:mx_credit_limit.header_view
+msgid ""
+"This customer's <strong>warning limit</strong> has been\n"
+"                    crossed."
+msgstr ""
+"El <strong>límite de aviso</strong> de este cliente ha sido\n"
+"                    cruzado."
+
+#. module: mx_credit_limit
+#: model:ir.model.fields,field_description:mx_credit_limit.field_res_partner__due_amount
+#: model:ir.model.fields,field_description:mx_credit_limit.field_res_users__due_amount
+msgid "Total Sale"
+msgstr "Venta total"
+
+#. module: mx_credit_limit
+#. odoo-javascript
+#: code:addons/mx_credit_limit/static/src/js/account_asset.js:0
+#, python-format
+msgid "Unposted"
+msgstr "Sin publicar"
+
+#. module: mx_credit_limit
+#: model:ir.model.fields,field_description:mx_credit_limit.field_res_partner__warning_stage
+#: model:ir.model.fields,field_description:mx_credit_limit.field_res_users__warning_stage
+msgid "Warning Amount"
+msgstr "Importe de la advertencia"
+
+#. module: mx_credit_limit
+#. odoo-python
+#: code:addons/mx_credit_limit/models/credit_limit.py:0
+#, python-format
+msgid "Warning amount should be less than Blocking amount"
+msgstr "El importe de la advertencia debe ser inferior al importe del bloqueo"
