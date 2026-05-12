@@ -1,0 +1,307 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* om_fiscal_year
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20240826\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-06 16:29+0000\n"
+"PO-Revision-Date: 2024-09-10 12:07-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+
+#. module: om_fiscal_year
+#: model_terms:ir.ui.view,arch_db:om_fiscal_year.view_change_lock_date
+msgid "Account Period Closing"
+msgstr "Cierre del período contable"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_res_config_settings__fiscalyear_lock_date
+msgid "All Users Lock Date"
+msgstr "Todos los usuarios Bloquear fecha"
+
+#. module: om_fiscal_year
+#: model:res.groups,name:om_fiscal_year.group_fiscal_year
+msgid "Allow to define fiscal years of more or less than a year"
+msgstr "Permitir definir ejercicios fiscales de más o menos de un año"
+
+#. module: om_fiscal_year
+#: model_terms:ir.ui.view,arch_db:om_fiscal_year.view_change_lock_date
+msgid "Cancel"
+msgstr "Cancelado"
+
+#. module: om_fiscal_year
+#: model:ir.model,name:om_fiscal_year.model_change_lock_date
+msgid "Change Lock Date"
+msgstr "Cambiar fecha de bloqueo"
+
+#. module: om_fiscal_year
+#: model_terms:ir.actions.act_window,help:om_fiscal_year.actions_account_fiscal_year
+msgid "Click here to create a new fiscal year."
+msgstr "Haga clic aquí para crear un nuevo ejercicio fiscal."
+
+#. module: om_fiscal_year
+#: model:ir.model,name:om_fiscal_year.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_account_fiscal_year__company_id
+#: model:ir.model.fields,field_description:om_fiscal_year.field_change_lock_date__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: om_fiscal_year
+#: model:ir.model,name:om_fiscal_year.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_account_fiscal_year__create_uid
+#: model:ir.model.fields,field_description:om_fiscal_year.field_change_lock_date__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_account_fiscal_year__create_date
+#: model:ir.model.fields,field_description:om_fiscal_year.field_change_lock_date__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: om_fiscal_year
+#: model_terms:ir.ui.view,arch_db:om_fiscal_year.res_config_settings_view_form
+msgid "Define fiscal years of more or less than one year"
+msgstr "Definir ejercicios fiscales de más o menos de un año"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_account_fiscal_year__display_name
+#: model:ir.model.fields,field_description:om_fiscal_year.field_change_lock_date__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_account_fiscal_year__date_to
+msgid "End Date"
+msgstr "Fecha final"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,help:om_fiscal_year.field_account_fiscal_year__date_to
+msgid "Ending Date, included in the fiscal year."
+msgstr "Fecha de finalización, incluida en el ejercicio fiscal."
+
+#. module: om_fiscal_year
+#: model_terms:ir.ui.view,arch_db:om_fiscal_year.res_config_settings_view_form
+msgid "Fiscal Period Closing"
+msgstr "Cierre del período fiscal"
+
+#. module: om_fiscal_year
+#: model:ir.model,name:om_fiscal_year.model_account_fiscal_year
+#: model:ir.ui.menu,name:om_fiscal_year.menu_fiscal_year
+#: model_terms:ir.ui.view,arch_db:om_fiscal_year.res_config_settings_view_form
+msgid "Fiscal Year"
+msgstr "Año fiscal"
+
+#. module: om_fiscal_year
+#: model:ir.actions.act_window,name:om_fiscal_year.actions_account_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_res_config_settings__group_fiscal_year
+#: model_terms:ir.ui.view,arch_db:om_fiscal_year.res_config_settings_view_form
+msgid "Fiscal Years"
+msgstr "Años fiscales"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_res_config_settings__fiscalyear_last_day
+msgid "Fiscalyear Last Day"
+msgstr "Último día del Año fiscal"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_res_config_settings__fiscalyear_last_month
+msgid "Fiscalyear Last Month"
+msgstr "Último mes del Año fiscal"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_account_fiscal_year__id
+#: model:ir.model.fields,field_description:om_fiscal_year.field_change_lock_date__id
+msgid "ID"
+msgstr "ID"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_change_lock_date__period_lock_date
+msgid "Journal Entries Lock Date"
+msgstr "Fecha de bloqueos de asiento"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_res_config_settings__period_lock_date
+msgid "Journals Entries Lock Date"
+msgstr "Fecha de bloqueo de los asientos"
+
+#. module: om_fiscal_year
+#: model_terms:ir.ui.view,arch_db:om_fiscal_year.res_config_settings_view_form
+msgid "Last Day"
+msgstr "Último día"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_account_fiscal_year__write_uid
+#: model:ir.model.fields,field_description:om_fiscal_year.field_change_lock_date__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_account_fiscal_year__write_date
+#: model:ir.model.fields,field_description:om_fiscal_year.field_change_lock_date__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_change_lock_date__fiscalyear_lock_date
+msgid "Lock Date for All Users"
+msgstr "Bloquear fecha para todos los usuarios"
+
+#. module: om_fiscal_year
+#: model:ir.ui.menu,name:om_fiscal_year.menu_action_change_lock_date
+msgid "Lock Dates"
+msgstr "Fechas de bloqueo"
+
+#. module: om_fiscal_year
+#: model:ir.actions.act_window,name:om_fiscal_year.action_view_change_lock_date
+msgid "Lock your Fiscal Period"
+msgstr "Bloquee su Período Fiscal"
+
+#. module: om_fiscal_year
+#: model_terms:ir.ui.view,arch_db:om_fiscal_year.res_config_settings_view_form
+msgid "Lock your fiscal period"
+msgstr "Bloquee su período fiscal"
+
+#. module: om_fiscal_year
+#: model_terms:ir.ui.view,arch_db:om_fiscal_year.view_change_lock_date
+msgid "Management Closing"
+msgstr "Cierre de la gestión"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_account_fiscal_year__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,help:om_fiscal_year.field_change_lock_date__tax_lock_date
+msgid ""
+"No users can edit journal entries related to a tax prior and inclusive of "
+"this date."
+msgstr ""
+"Ningún usuario puede editar asientos relacionados con un impuesto anterior "
+"e inclusive a esta fecha."
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,help:om_fiscal_year.field_res_config_settings__fiscalyear_lock_date
+msgid ""
+"No users, including Advisers, can edit accounts prior to and inclusive of "
+"this date. Use it for fiscal year locking for example."
+msgstr ""
+"Ningún usuario, incluidos los Asesores, puede editar cuentas anteriores a "
+"esta fecha e inclusive. Utilícelo, por ejemplo, para el cierre del "
+"ejercicio."
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,help:om_fiscal_year.field_change_lock_date__fiscalyear_lock_date
+msgid ""
+"No users, including Advisers, can edit accounts prior to and inclusive of "
+"this date. Use it for fiscal year locking."
+msgstr ""
+"Ningún usuario, incluidos los Asesores, puede editar cuentas anteriores a "
+"esta fecha e inclusive. Utilícelo para el bloqueo del año fiscal."
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,help:om_fiscal_year.field_res_config_settings__period_lock_date
+msgid ""
+"Only users with the 'Adviser' role can edit accounts prior to and inclusive "
+"of this date. Use it for period locking inside an open fiscal year, for "
+"example."
+msgstr ""
+"Sólo los usuarios con el rol de 'Asesor' pueden editar cuentas anteriores a "
+"esta fecha e inclusive. Utilícelo para bloquear periodos dentro de un "
+"ejercicio fiscal abierto, por ejemplo."
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,help:om_fiscal_year.field_change_lock_date__period_lock_date
+msgid "Prevent posting of journal entries in this period."
+msgstr "Evitar la contabilización de asientos en este período."
+
+#. module: om_fiscal_year
+#: model_terms:ir.ui.view,arch_db:om_fiscal_year.view_change_lock_date
+msgid "Save"
+msgstr "Guardar"
+
+#. module: om_fiscal_year
+#. odoo-python
+#: code:addons/om_fiscal_year/models/res_company.py:0
+#, python-format
+msgid "Show unposted entries"
+msgstr "Mostrar entradas no publicadas"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_account_fiscal_year__date_from
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,help:om_fiscal_year.field_account_fiscal_year__date_from
+msgid "Start Date, included in the fiscal year."
+msgstr "Fecha de inicio, incluida en el ejercicio fiscal."
+
+#. module: om_fiscal_year
+#: model:ir.model.fields,field_description:om_fiscal_year.field_change_lock_date__tax_lock_date
+msgid "Tax Lock Date"
+msgstr "Fecha de bloqueo fiscal"
+
+#. module: om_fiscal_year
+#. odoo-python
+#: code:addons/om_fiscal_year/models/account_fiscal_year.py:0
+#, python-format
+msgid "The ending date must not be prior to the starting date."
+msgstr "La fecha de finalización no debe ser anterior a la fecha de inicio."
+
+#. module: om_fiscal_year
+#. odoo-python
+#: code:addons/om_fiscal_year/models/res_company.py:0
+#, python-format
+msgid ""
+"There are still unposted entries in the period you want to lock. You should "
+"either post or delete them."
+msgstr ""
+"Todavía hay entradas sin contabilizar en el periodo que desea bloquear. "
+"Deberá contabilizarlas o eliminarlas."
+
+#. module: om_fiscal_year
+#. odoo-python
+#: code:addons/om_fiscal_year/models/res_company.py:0
+#, python-format
+msgid ""
+"There are still unreconciled bank statement lines in the period you want to "
+"lock.You should either reconcile or delete them."
+msgstr ""
+"Todavía hay líneas de extractos bancarios sin conciliar en el período que "
+"desea bloquear, por lo que deberá conciliarlas o eliminarlas."
+
+#. module: om_fiscal_year
+#. odoo-python
+#: code:addons/om_fiscal_year/wizard/change_lock_date.py:0
+#, python-format
+msgid "You Are Not Allowed To Perform This Operation"
+msgstr "No puede realizar esta operación"
+
+#. module: om_fiscal_year
+#. odoo-python
+#: code:addons/om_fiscal_year/models/account_fiscal_year.py:0
+#, python-format
+msgid ""
+"You can not have an overlap between two fiscal years, please correct the "
+"start and/or end dates of your fiscal years."
+msgstr ""
+"No puede haber solapamiento entre dos ejercicios fiscales, por favor "
+"corrija las fechas de inicio y/o fin de sus ejercicios fiscales."
