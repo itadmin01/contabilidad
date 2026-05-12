@@ -25,6 +25,7 @@
         'om_recurring_payments',
         'account_reconcile_oca',
         'om_account_followup',
+        'dynamic_accounts_report'
     ],
     'data': [
         'security/group.xml',
